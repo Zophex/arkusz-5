@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akrusz 5</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 500px;
+    border: 2px solid black;
+    margin: 20px auto;
+}
+
+
+.header,
+.images-section,
+.footer {
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 18px;
+}
+
+
+.main-block {
+    border-bottom: 2px solid black;
+}
+
+.inner-main {
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+
+.left-section {
+    width: 40%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.right-section {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.nav-block,
+.right-content {
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <header class="header">Blok nagłówkowy
+        <a href="https://zophex.github.io/Strona/">
+            <h4>powrót</h4>
+        </a>
+    </header>
+
+    <section class="images-section">Blok sekcji obrazów</section>
+
+    <section class="main-block">
+        <div class="inner-main">
+
+            <div class="left-section">
+                Blok<br>sekcji lewej
+            </div>
+
+            <div class="right-section">
+                <div class="nav-block">Blok nawigacyjny</div>
+                <div class="right-content">Blok sekcji prawej</div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">Blok stopki</footer>
+
+</div>
+
+</body>
+</html>
